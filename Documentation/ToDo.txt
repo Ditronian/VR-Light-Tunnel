@@ -1,0 +1,39 @@
+To Do List:
+	Add in proper multiplayer movement
+	
+	Make a File outlining the flow of sending data from server to clients, and from client to server.
+		This will be needed for when I need to add additional data travel.
+		
+	Add in way to turn, even if by keyboard for now (Q/E)
+		Partially implemented.  Q/E do rotate the model but it is not a fluid rotation.  
+		Also it affects the movement speed of WASD somehow, increasing it a ton after rotating around.
+			Certain Y rotation angles have different movement speeds.
+		Also, rotation force rotates the VR camera.  While this makes sense logically, may be sickness inducing.
+	
+		
+	*GameObjects
+		Tweak LocalPlayer prefab
+			Make cylinder horizontal to represent the bike
+			Adjust player head/hand location to th front top of the bike
+	
+	Networking
+		Replace Networking player rotation code with bike rotation code.  We dont need to send the direction a player is physically looking
+		Replace WASD with constant forward bike motion
+		Replace WASD keyboard input with VR Controls
+			Maybe just read a handle bar turn amount (float) and send that to the server, which then figures out how hard to turn bike if at all.
+			This keeps the vr hand positions local to the client and probably saves a lot of networking resources than sending hand positions.
+
+Unimportant To Do:
+	Grid Neon Flashing as scene here:  https://www.youtube.com/watch?v=g8A0yojNfhA
+		Even the particles effects seem neat.
+
+
+Completed:
+	Setup bloom (https://www.youtube.com/watch?v=Nd1pmR1afGk.  Around 8:30 mark)
+	Add in VR Camera  (https://www.youtube.com/watch?v=gGYtahQjmWQ&t=327s)
+	
+	On connect, move to neon grid
+		In theory this done.
+		Needs to have the scene change occur AFTER successful connection, if and only if connection was successful.
+		
+		

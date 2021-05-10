@@ -1,0 +1,33 @@
+tile length: 2.5
+Scale: 2.5
+
+Floor
+	X Rotation: 90
+	Z Position: Divisible by 2.5
+	
+Ceiling
+	X Rotation: -90
+	Y Position: 2.5
+	Z Position: Divisible by 2.5
+
+Side Wall 
+	Y Rotation: + or - 90
+	X Position: + or - 1.25
+	Y Position 1.25
+	
+	Z: Current location, divisible by 2.5
+
+
+Game Moves along the Z axis
+	
+Segments:
+	Spacing: 2.5 apart
+	X = 0, Y = 1, Z = num divisible by 2.5
+	
+VR Rig:
+	X= 0, Y=1, Z=0;
+	
+	
+Good Max Speed: 0.1
+Start Speed: 0.01
+Increments: 0.005

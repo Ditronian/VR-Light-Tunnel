@@ -1,0 +1,11 @@
+Notes on things to learn:
+	using as a codeblock
+	'delegate' keyword
+	Enum keyword and enumerations.  Ive never used them for anything.
+	#Region [regionName] keyword
+	
+	
+	Networking:
+		TCP (see client.cs in unity)
+		socket
+		

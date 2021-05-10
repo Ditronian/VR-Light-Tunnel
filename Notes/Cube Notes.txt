@@ -1,0 +1,35 @@
+Cube Notes:
+
+	Scale: 1.25 is one quarter the size of a plane
+	
+	
+	Top Left:  -.625, 2.875, -.625 AND .625		Assuming doing two squares
+	
+	Top Right:  .625, 2.875, -.625 AND .625		Assuming doing two squares
+	
+	Bottom Left:  -.625, 1.625, -.625 AND .625		Assuming doing two squares
+	
+	Bottom Right:  .625, 1.625, -.625 AND .625		Assuming doing two squares
+	
+	
+	New Ideas:
+		Set material on awake, selected by your speed, or where at in the song.
+			Test and make new colors
+		Have tunnels, ie make the current 2x2 a 4x4
+		
+		Diffusion between 5 and 7 over the course of about a 1.5 seconds
+		
+		1.25
+		
+		0 secs start stage 1
+			Green
+		
+		54secs temp switch begin stage 2
+			Yellow
+		
+		108 tempo switch begin stage 3
+			Orange
+			
+		2.4f to travel
+		
+		0.56f to travel	= 5600 updates
